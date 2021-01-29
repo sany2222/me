@@ -1,0 +1,13 @@
+#!/usr/bin/python2
+
+import os
+import sys
+
+#sany.me
+print("\033[91m ")
+os.system("figlet sany.me")
+print("\033[93m ")
+url =raw_input("[+] Enter websit :www.")
+print("\033[92m]")
+os.system("whois %s" % (url))
+0 comments on commit 0dcc375
